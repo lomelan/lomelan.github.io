@@ -2,6 +2,7 @@
 /* Titre principal tout en haut */
 .top-title {
   font-size: 48px;
+  text-decoration: underline;
   font-weight: 900;
   color: #ffffff;
   background-color: #2E86C1;
@@ -14,8 +15,12 @@
   .top-title { font-size: 28px; padding: 12px 8px; }
 }
 
+.s_center {
+	text-align: center;
+}
 
-body {font-family: 'Lato', sans-serif; margin:0; padding:0; line-height:1.6; background:#f9f9f9; color:#333;}
+body {text-align: center; font-family: 'Lato', sans-serif; margin:0; padding:0; line-height:1.6; background:#f9f9f9; color:#333;}
+#soins {text-align: left;}
 header {background:#2E86C1; color:white; padding:20px; text-align:center;}
 header img {max-height:80px; margin-bottom:10px;}
 nav {background:#21618C; display:flex; justify-content:center; flex-wrap:wrap;}
@@ -34,8 +39,5 @@ img.responsive {max-width:100%; height:auto; border-radius:10px;}
 .call-button {position:fixed; bottom:20px; right:20px; background:#27AE60; color:white; padding:15px 20px; border-radius:50px; font-size:18px; text-decoration:none; box-shadow:0 4px 6px rgba(0,0,0,0.3);}
 @media(max-width:768px){nav{flex-direction:column;} .container{margin:10px;}}
 
-/* Top title style */
-.top-title {font-size: 36px; font-weight: 800; color: #ffffff; margin: 0; padding: 12px 0; text-align: center;}
-@media(max-width:768px){ .top-title {font-size: 24px;} }
 
 .mail-button {position:fixed; bottom:90px; right:20px; background:#2980B9; color:white; padding:12px 18px; border-radius:50px; font-size:16px; text-decoration:none; box-shadow:0 4px 6px rgba(0,0,0,0.25);} 
